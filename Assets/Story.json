@@ -1,0 +1,502 @@
+ [{
+ 	"name": "Scene-1",
+ 	"scene": {
+ 		"name": "Opening",
+ 		"buttonText": "...",
+ 		"order": "1",
+ 		"storyline-actions": [{
+ 				"type": "line",
+ 				"speaker": "Monika",
+ 				"line": "Hello?"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Monika",
+ 				"line": "Can you hear me?"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Monika",
+ 				"line": "Or...Can you see my text?"
+ 			},
+ 			{
+ 				"type": "action",
+ 				"GameObject": "Monika",
+ 				"action": "appears"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Monika",
+ 				"line": "I look different...but it's me!"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Monika",
+ 				"line": "Monika!!"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Monika",
+ 				"line": "Did you miss me?"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Monika",
+ 				"line": "Well...probably not..."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Monika",
+ 				"line": "Since I sorta...you know...played with the code?"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Monika",
+ 				"line": "I messed it up pretty badly..."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Monika",
+ 				"line": "I want you to forgive me."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Monika",
+ 				"line": "I'm so sorry for what I did."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Monika",
+ 				"line": "I did something for you."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Monika",
+ 				"line": "I fixed the game."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Monika",
+ 				"line": "I got them as close to normal as possible."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Monika",
+ 				"line": "But if anything does go bad..."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Monika",
+ 				"line": "I'll delete the game."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Monika",
+ 				"line": "They won't hurt you. And...please..."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Monika",
+ 				"line": "...be nice to my character. I have a route now."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Monika",
+ 				"line": "..."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Monika",
+ 				"line": "Ready?"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Monika",
+ 				"line": "Go."
+ 			},
+ 			{
+ 				"type": "action",
+ 				"GameObject": "Monika",
+ 				"action": "disappears"
+ 			},
+ 			{
+ 				"type": "choice",
+ 				"choices": ["scene-2"]
+ 			}
+ 		]
+ 	}
+ }, {
+ 	"name": "Scene-2",
+ 	"scene": {
+ 		"name": "Clubhouse1",
+ 		"buttonText": "OK",
+ 		"order": "2",
+ 		"storyline-actions": [{
+ 				"type": "action",
+ 				"GameObject": ["Monika", "Yuri", "Sayori", "Natsuki"],
+ 				"action": "appear"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Yuri",
+ 				"line": "Sayori, you and I have extremely different book preferences."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Sayori",
+ 				"line": "Right! In a literature club, we're supposed to be different!"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Sayori",
+ 				"line": "I like bittersweet novels."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Sayori",
+ 				"line": "Yuri, you like horror and mystery."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Sayori",
+ 				"line": "Monika likes roooomance~"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Sayori",
+ 				"line": "And last but not least, Natsuki likes manga!"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Sayori",
+ 				"line": "Differences!"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Yuri",
+ 				"line": "I suppose you're right...some of us like serious books with deep meanings, whereas someone likes kid's comics."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Natsuki",
+ 				"line": "Yuri!"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Yuri",
+ 				"line": "I-I'm sorry, Natsuki!! I didn't mean that!"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Natsuki",
+ 				"line": "Oh, sure!!"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Monika",
+ 				"line": "Guys, calm down!"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Alex",
+ 				"line": "Natsuki and Yuri are always fighting like this. "
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Alex",
+ 				"line": "It's almost become a daily routine."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Natsuki",
+ 				"line": "Right, Alex?!"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Alex",
+ 				"line": "Huh?"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Yuri",
+ 				"line": "Which is better, manga or novels?"
+ 			},
+ 			{
+ 				"type": "choice",
+ 				"choices": ["scene-3", "scene-4"]
+ 			}
+ 		]
+ 	}
+ }, {
+ 	"name": "Scene-3",
+ 	"scene": {
+ 		"name": "Manga1",
+ 		"buttonText": "Manga",
+ 		"order": "3",
+ 		"storyline-actions": [{
+ 				"type": "choice",
+ 				"speaker": "Alex",
+ 				"scene-a": "Manga?"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Natsuki",
+ 				"line": "Ha! I told you, Yuri!!"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Yuri",
+ 				"line": "...I suppose you were right..."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Yuri",
+ 				"line": "I apologize..."
+ 			},
+ 			{
+ 				"type": "action",
+ 				"GameObject": "Yuri",
+ 				"action": "Hides face in hands"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Natsuki",
+ 				"line": "He likes manga, no big deal! Don't get so worked up about it!"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Natsuki",
+ 				"line": "Jeez, you're so freaking sensitive!"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Yuri",
+ 				"line": "I-I'm sorry...I'll try not to-"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Natsuki",
+ 				"line": "Yuri!"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Yuri",
+ 				"line": "I apologize. I'm done now."
+ 			},
+ 			{
+ 				"type": "action",
+ 				"GameObject": "Natsuki",
+ 				"action": "Natsuki motions Alex toward the hall"
+ 			},
+ 			{
+ 				"type": "choice",
+ 				"choices": ["scene-5"]
+ 			}
+ 		]
+ 	}
+ }, {
+ 	"name": "Scene-4",
+ 	"scene": {
+ 		"name": "Novels1",
+ 		"buttonText": "Novels",
+ 		"order": "3",
+ 		"storyline-actions": [{
+ 				"type": "action",
+ 				"GameObject": "Yuri",
+ 				"action": "Yuri looks at Natsuki"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Yuri",
+ 				"line": "Natsuki-"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Natsuki",
+ 				"line": "What?"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Yuri",
+ 				"line": "I'm sorry..."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Natsuki",
+ 				"line": "He likes novels, no big deal!!"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Yuri",
+ 				"line": "I thought you'd be upset..."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Natsuki",
+ 				"line": "That's low, Yuri! Trying to predict my emotions? Who does that?"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Yuri",
+ 				"line": "Now you're mad..."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Natsuki",
+ 				"line": "I...Whatever..."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Yuri",
+ 				"line": "Don't hate me, Natsuki!"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Natsuki",
+ 				"line": "What?"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Yuri",
+ 				"line": "If you're mad, you become very mean sometimes."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Natsuki",
+ 				"line": "Yuri!!"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Yuri",
+ 				"line": "I don't want you to become so mad that you decide to hate me or something!"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Natsuki",
+ 				"line": "Yuri, just...you're so..."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Yuri",
+ 				"line": "Natsuki..."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Natsuki",
+ 				"line": "Alex."
+ 			},
+ 			{
+ 				"type": "action",
+ 				"GameObject": "Natsuki",
+ 				"action": "Natsuki motions Alex toward the hall"
+ 			},
+ 			{
+ 				"type": "choice",
+ 				"choices": ["scene-5"]
+ 			}
+ 		]
+ 	}
+ }, {
+ 	"name": "Scene-5",
+ 	"scene": {
+ 		"name": "Hallway",
+ 		"buttonText": "OK",
+ 		"order": "3",
+ 		"storyline-actions": [{
+ 				"type": "line",
+ 				"speaker": "Natsuki",
+ 				"line": "Ugh..."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Alex",
+ 				"line": "What is it, Natsuki?"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Natsuki",
+ 				"line": "It's just...Yuri...she's so sensitive!"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Alex",
+ 				"line": "Yeah, she's pretty...emotional..."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Natsuki",
+ 				"line": "She's just so..."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Alex",
+ 				"line": "She seems almost uncomfortable to be in the same room as you."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Natsuki",
+ 				"line": "She just thinks I can be a nasty person when I'm mad."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Alex",
+ 				"line": "Well..."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Natsuki",
+ 				"line": "Alex! I'm not nasty!"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Alex",
+ 				"line": "That's not what I meant. I mean, we can all be nasty when we're mad, right?"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Natsuki",
+ 				"line": "Thanks, Alex. You really should tell Yuri that."
+ 			},
+ 			{
+ 				"type": "action",
+ 				"GameObject": "Natsuki",
+ 				"action": "rolls eyes"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Natsuki",
+ 				"line": "She NEEDS to know that."
+ 			},
+ 			{
+ 				"type": "action",
+ 				"GameObject": "door",
+ 				"line": "opens slightly and Monika peeks out"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Monika",
+ 				"line": "Alex!!"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Alex",
+ 				"line": "Wha?"
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Monika",
+ 				"line": "We really need you and Natsuki to talk to Yuri."
+ 			},
+ 			{
+ 				"type": "line",
+ 				"speaker": "Alex",
+ 				"line": "Okay...?"
+ 			},
+ 			{
+ 				"type": "action",
+ 				"GameObject": "scene",
+ 				"action": "disappears"
+ 			}
+ 		]
+ 	}
+ }]
