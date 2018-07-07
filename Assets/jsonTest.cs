@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class jsonTest : MonoBehaviour {
     public TextAsset jsonFile;
-	
+    public SceneList ListOfScenes;
+
 	void Start () {
-        SceneList scenes = JsonUtility.FromJson<SceneList>(jsonFile.text);
-        Debug.Log(scenes.Scenes.Count);
+        ListOfScenes = JsonUtility.FromJson<SceneList>(jsonFile.text);
+        Debug.Log(ListOfScenes.Scenes.Count);
 	}
 	
 	
