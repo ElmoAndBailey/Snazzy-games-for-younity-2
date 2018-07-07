@@ -6,6 +6,6 @@ public class SceneContents {
     public string name;
     public string buttonText;
     public int order;
-    public StorylineAction[] storylineActions;
+    public List <StorylineAction> storylineActions;
 
 }
