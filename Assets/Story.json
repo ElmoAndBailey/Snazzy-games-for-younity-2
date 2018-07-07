@@ -3,8 +3,8 @@
  	"scene": {
  		"name": "Opening",
  		"buttonText": "...",
- 		"order": "1",
- 		"storyline-actions": [{
+ 		"order": 1,
+ 		"storylineActions": [{
  				"type": "line",
  				"speaker": "Monika",
  				"line": "Hello?"
@@ -130,8 +130,8 @@
  	"scene": {
  		"name": "Clubhouse1",
  		"buttonText": "OK",
- 		"order": "2",
- 		"storyline-actions": [{
+ 		"order": 2,
+ 		"storylineActions": [{
  				"type": "action",
  				"GameObject": ["Monika", "Yuri", "Sayori", "Natsuki"],
  				"action": "appear"
@@ -232,8 +232,8 @@
  	"scene": {
  		"name": "Manga1",
  		"buttonText": "Manga",
- 		"order": "3",
- 		"storyline-actions": [{
+ 		"order": 3,
+ 		"storylineActions": [{
  				"type": "choice",
  				"speaker": "Alex",
  				"scene-a": "Manga?"
@@ -299,8 +299,8 @@
  	"scene": {
  		"name": "Novels1",
  		"buttonText": "Novels",
- 		"order": "3",
- 		"storyline-actions": [{
+ 		"order": 3,
+ 		"storylineActions": [{
  				"type": "action",
  				"GameObject": "Yuri",
  				"action": "Yuri looks at Natsuki"
@@ -401,8 +401,8 @@
  	"scene": {
  		"name": "Hallway",
  		"buttonText": "OK",
- 		"order": "3",
- 		"storyline-actions": [{
+ 		"order": 4,
+ 		"storylineActions": [{
  				"type": "line",
  				"speaker": "Natsuki",
  				"line": "Ugh..."

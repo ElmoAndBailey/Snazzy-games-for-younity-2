@@ -1,16 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+[System.Serializable]
+public class NovelScene {
+    public string Name;
+    public SceneContents scene;
 
-public class NovelScene : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+    
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }
