@@ -4,9 +4,11 @@ using UnityEngine;
 [System.Serializable]
 public class StorylineAction{
     public string type;
-    public string speaker;
+
     public string action;
     public string GameObject;
+
+    public string speaker;
     public string line;
 
 }

@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 114013110457685616}
   - component: {fileID: 114826404548268024}
   m_Layer: 5
-  m_Name: Button1
+  m_Name: MainButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -159,9 +159,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e569f25808cf0dd4d951d8571fae8912, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _text: {fileID: 114292247029449580}
-  _button1: {fileID: 114013110457685616}
-  _button2: {fileID: 0}
+  Text: {fileID: 114292247029449580}
+  ButtonObj: {fileID: 114013110457685616}
 --- !u!222 &222503540429332992
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -209,5 +208,5 @@ RectTransform:
   m_AnchorMin: {x: 0.523, y: 0.5}
   m_AnchorMax: {x: 0.523, y: 0.5}
   m_AnchoredPosition: {x: -0, y: -200}
-  m_SizeDelta: {x: 255, y: 19}
+  m_SizeDelta: {x: 500, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}

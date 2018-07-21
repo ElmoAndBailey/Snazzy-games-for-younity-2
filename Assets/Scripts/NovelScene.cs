@@ -5,8 +5,4 @@ using UnityEngine;
 public class NovelScene {
     public string name;
     public SceneContents scene;
-
-
-    
-	
 }

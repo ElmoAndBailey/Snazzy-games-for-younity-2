@@ -8,17 +8,17 @@
  		"order": 1,
  		"storylineActions": [{
  				"type": "line",
- 				"speaker": "Monika",
+ 				"speaker": "???",
  				"line": "Hello?"
  			},
  			{
  				"type": "line",
- 				"speaker": "Monika",
+ 				"speaker": "???",
  				"line": "Can you hear me?"
  			},
  			{
  				"type": "line",
- 				"speaker": "Monika",
+ 				"speaker": "???",
  				"line": "Or...Can you see my text?"
  			},
  			{
@@ -28,7 +28,7 @@
  			},
  			{
  				"type": "line",
- 				"speaker": "Monika",
+ 				"speaker": "???",
  				"line": "I look different...but it's me!"
  			},
  			{
@@ -256,9 +256,9 @@
  				"line": "I apologize..."
  			},
  			{
- 				"type": "action",
- 				"GameObject": "Yuri",
- 				"action": "Hides face in hands"
+ 				"type": "line",
+ 				"speaker": "Yuri",
+ 				"line": "(Hides face in hands.)"
  			},
  			{
  				"type": "line",
@@ -286,9 +286,9 @@
  				"line": "I apologize. I'm done now."
  			},
  			{
- 				"type": "action",
- 				"GameObject": "Natsuki",
- 				"action": "Natsuki motions Alex toward the hall"
+ 				"type": "line",
+ 				"speaker": "Natsuki",
+ 				"line": "Natsuki motions me toward the hall"
  			},
  			{
  				"type": "choice",
