@@ -128,7 +128,7 @@
  		]
  	}
  }, {
- 	"name": "Scene-2",
+ 	"name": "scene-2",
  	"scene": {
  		"name": "Clubhouse1",
  		"buttonText": "OK",
@@ -220,8 +220,13 @@
  			},
  			{
  				"type": "line",
- 				"speaker": "Yuri",
- 				"line": "Which is better, manga or novels?"
+ 				"speaker": "Natsuki",
+ 				"line": "Manga is obviously better than Yuri's books, right!?"
+ 			},
+			{
+ 				"type": "line",
+ 				"speaker": "Alex",
+ 				"line": "Um..."
  			},
  			{
  				"type": "choice",
@@ -230,10 +235,10 @@
  		]
  	}
  }, {
- 	"name": "Scene-3",
+ 	"name": "scene-3",
  	"scene": {
- 		"name": "Manga1",
- 		"buttonText": "Manga",
+ 		"name": "Natsuki1",
+ 		"buttonText": "Natsuki",
  		"order": 3,
  		"storylineActions": [{
  				"type": "choice",
@@ -254,11 +259,6 @@
  				"type": "line",
  				"speaker": "Yuri",
  				"line": "I apologize..."
- 			},
- 			{
- 				"type": "line",
- 				"speaker": "Yuri",
- 				"line": "(Hides face in hands.)"
  			},
  			{
  				"type": "line",
@@ -297,15 +297,15 @@
  		]
  	}
  }, {
- 	"name": "Scene-4",
+ 	"name": "scene-4",
  	"scene": {
- 		"name": "Novels1",
- 		"buttonText": "Novels",
+ 		"name": "Yuri1",
+ 		"buttonText": "Yuri",
  		"order": 3,
  		"storylineActions": [{
  				"type": "action",
  				"GameObject": "Yuri",
- 				"action": "Yuri looks at Natsuki"
+ 				"action": "Yuri looks at Natsuki."
  			},
  			{
  				"type": "line",
@@ -390,7 +390,7 @@
  			{
  				"type": "action",
  				"GameObject": "Natsuki",
- 				"action": "Natsuki motions Alex toward the hall"
+ 				"action": "Natsuki motions me toward the hall."
  			},
  			{
  				"type": "choice",
@@ -399,7 +399,7 @@
  		]
  	}
  }, {
- 	"name": "Scene-5",
+ 	"name": "scene-5",
  	"scene": {
  		"name": "Hallway",
  		"buttonText": "OK",
@@ -467,12 +467,12 @@
  			{
  				"type": "line",
  				"speaker": "Natsuki",
- 				"line": "She NEEDS to know that."
+ 				"line": "...I want her to know that."
  			},
  			{
  				"type": "action",
  				"GameObject": "door",
- 				"line": "opens slightly and Monika peeks out"
+ 				"line": "The door opens slightly and Monika peeks out."
  			},
  			{
  				"type": "line",

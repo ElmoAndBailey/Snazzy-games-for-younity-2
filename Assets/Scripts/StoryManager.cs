@@ -33,6 +33,19 @@ public class StoryManager : MonoBehaviour {
         MainButton.Text.text = currentAction.line;
         MainButton.Speaker.text = currentAction.speaker;
         actionIndex++;
+        if (currentAction.type == "choice")
+            HandleNextScene();
+    }   
+    
+
+
+    private void HandleNextScene()
+    {
+       
+        sceneIndex++;
+        actionIndex = 0;
+        MainButton.Text.text = currentAction.line;
+        MainButton.Speaker.text = currentAction.speaker;
 
     }
 }
