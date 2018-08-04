@@ -33,16 +33,30 @@ public class StoryManager : MonoBehaviour {
         MainButton.Text.text = currentAction.line;
         MainButton.Speaker.text = currentAction.speaker;
         actionIndex++;
-        if (currentAction.type == "choice")
-            HandleNextScene();
+        if (currentAction.type == "choice") {
+            foreach (string Choice in currentAction.choices)
+            {
+                int SceneNumber  = ListOfScenes.FindNextSceneIndex(Choice);
+                NovelScene Scene = ListOfScenes.FindNextScene(Choice);
+                 string buttonText = Scene.scene.buttonText;
+                var go = Instantiate(MainButton);
+                var button = GetComponent<UnityEngine.UI.Button>();
+                button.onClick.AddListener(() => HandleNextScene(SceneNumber));
+
+
+            }
+
+
+        }
+            //HandleNextScene();
     }   
     
 
 
-    private void HandleNextScene()
+    private void HandleNextScene(int SceneNumber)
     {
        
-        sceneIndex++;
+        sceneIndex = SceneNumber;
         actionIndex = 0;
         MainButton.Text.text = currentAction.line;
         MainButton.Speaker.text = currentAction.speaker;

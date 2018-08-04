@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 [System.Serializable]
-public class StorylineAction{
+public class StorylineAction {
     public string type;
 
     public string action;
@@ -11,4 +11,7 @@ public class StorylineAction{
     public string speaker;
     public string line;
 
+    public string[] choices;
 }
+
+

@@ -221,7 +221,7 @@
  			{
  				"type": "line",
  				"speaker": "Natsuki",
- 				"line": "Manga is obviously better than Yuri's books, right!?"
+ 				"line": "My books are obviously better than Yuri's books, right!?"
  			},
 			{
  				"type": "line",
@@ -237,8 +237,8 @@
  }, {
  	"name": "scene-3",
  	"scene": {
- 		"name": "Natsuki1",
- 		"buttonText": "Natsuki",
+ 		"name": "scene-3",
+ 		"buttonText": "I think I have to agree with Natsuki on this one.",
  		"order": 3,
  		"storylineActions": [{
  				"type": "choice",
